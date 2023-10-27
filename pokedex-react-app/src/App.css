@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Pokemon Light';
+  src: url('../public/Assets/fonts/Pokemon\ Light.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: 'Pokemon Medium';
+  src: url('../public/Assets/fonts/Pokemon\ Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: 'Pokemon Bold';
+  src: url('../public/Assets/fonts/Pokemon\ Bold.ttf') format('ttf')
+}
+
+.app-background {
+  background-image: url('../public/Assets/images/Appliction\ Wallpaper.jpg');
+  background-size: cover;
+  display: block;
+  height: 100vh;
+  position: relative;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#header-logo {
+
+}
+
+#header-title {
+  font-family: 'Pokemon Bold';
+}
+
+.app-body {
+  
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinningImage {
+  position: absolute;
+  animation: spin 10s linear infinite;
+  height: 60vh;
+  top: 5rem;
+}
